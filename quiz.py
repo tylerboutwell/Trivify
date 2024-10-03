@@ -1,7 +1,7 @@
 
 def run_quiz(question_list):
         score = 0
-        for question in question_list:
+        for question in question_list.values():
             print(question["question"])
             for option in question["options"]:
                 print(option)
